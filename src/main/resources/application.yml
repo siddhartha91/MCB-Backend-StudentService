@@ -20,3 +20,10 @@ spring:
                 dialect: org.hibernate.dialect.H2Dialect
         show-sql: true
         
+spring.main.allow-circular-references: true        
+        
+        
+        
+        
+jwt:
+ secret: studentapi
